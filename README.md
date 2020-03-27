@@ -1,7 +1,7 @@
 # X4 Foundations Vanilla Icon Pack
 ### About The Mod
 **This is an patch that replaces ships and some station icons with custom icons derrived from XRebirth and my own designs.**
-![alt text](https://i.imgur.com/vo2IxML.png "Galaxy Map Icons: Oooo Fancy")
+![alt text](https://i.imgur.com/gKHSotk.png "Galaxy Map Icons: Oooo Fancy")
 
 ## Install
 **Just place it into your extensions folder like any other mod.**
