@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diff>
+    <!-- Replace Vanilla Icons -->
+    <!-- Replacing Vanilla Fight Ships -->
+    <replace sel="/icons/icon[@name='ship_xs_fight_01']">
+        <icon name="ship_xs_fight_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xs_fight_01.tga" height="140" width="140"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_s_fight_01']">
+        <icon name="ship_s_fight_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_s_fight_01.tga" height="160" width="160"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_m_fight_01']">
+        <icon name="ship_m_fight_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_m_fight_01.tga" height="180" width="180"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_l_fight_01']">
+        <icon name="ship_l_fight_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_l_fight_01.tga" height="190" width="190"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_xl_fight_01']">
+        <icon name="ship_xl_fight_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xl_fight_01.tga" height="200" width="200"></icon>
+    </replace>
+    <!-- Replacing Vanilla Trade Ships -->
+    <replace sel="/icons/icon[@name='ship_xs_trade_01']">
+        <icon name="ship_xs_trade_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xs_trade_01.tga" height="140" width="140"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_s_trade_01']">
+        <icon name="ship_s_trade_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_s_trade_01.tga" height="160" width="160"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_m_trade_01']">
+        <icon name="ship_m_trade_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_m_trade_01.tga" height="180" width="180"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_l_trade_01']">
+        <icon name="ship_l_trade_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_l_trade_01.tga" height="190" width="190"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_xl_trade_01']">
+        <icon name="ship_xl_trade_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xl_trade_01.tga" height="200" width="200"></icon>
+    </replace>
+    <!-- Replacing Vanilla Mine Ships -->
+    <replace sel="/icons/icon[@name='ship_xs_mine_01']">
+        <icon name="ship_xs_mine_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xs_mine_01.tga" height="140" width="140"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_s_mine_01']">
+        <icon name="ship_s_mine_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_s_mine_01.tga" height="160" width="160"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_m_mine_01']">
+        <icon name="ship_m_mine_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_m_mine_01.tga" height="180" width="180"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_l_mine_01']">
+        <icon name="ship_l_mine_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_l_mine_01.tga" height="190" width="190"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_xl_mine_01']">
+        <icon name="ship_xl_mine_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xl_mine_01.tga" height="200" width="200"></icon>
+    </replace>
+    <!-- Replacing Vanilla Neutral Ships -->
+    <replace sel="/icons/icon[@name='ship_xs_neutral_01']">
+        <icon name="ship_xs_neutral_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xs_neutral_01.tga" height="140" width="140"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_s_neutral_01']">
+        <icon name="ship_s_neutral_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_s_neutral_01.tga" height="160" width="160"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_m_neutral_01']">
+        <icon name="ship_m_neutral_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_m_neutral_01.tga" height="180" width="180"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_l_neutral_01']">
+        <icon name="ship_l_neutral_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_l_neutral_01.tga" height="190" width="190"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_xl_neutral_01']">
+        <icon name="ship_xl_neutral_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xl_neutral_01.tga" height="200" width="200"></icon>
+    </replace>
+    <!-- Replacing Vanilla Build Ships -->
+    <replace sel="/icons/icon[@name='ship_xs_build_01']">
+        <icon name="ship_xs_build_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xs_build_01.tga" height="140" width="140"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='ship_xl_build_01']">
+        <icon name="ship_xl_build_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xl_build_01.tga" height="190" width="190"></icon>
+    </replace>
+    <!-- Replacing Vanilla Stations -->
+    <replace sel="/icons/icon[@name='mapob_playerhq']">
+        <icon name="mapob_playerhq" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\map_objects\mapob_playerhq.tga" height="128" width="128"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='mapob_piratestation']">
+        <icon name="mapob_piratestation" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\map_objects\mapob_piratestation.tga" height="128" width="128"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='mapob_piratestation_headquarter']">
+        <icon name="mapob_piratestation_headquarter" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\map_objects\mapob_piratestation_headquarter.tga" height="128" width="128"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='si_piratestation']">
+        <icon name="si_piratestation" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\stationicon\si_piratestation.tga" height="128" width="128"></icon>
+    </replace>
+    <replace sel="/icons/icon[@name='si_playerhq']">
+        <icon name="si_playerhq" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\stationicon\si_playerhq.tga" height="128" width="128"></icon>
+    </replace>
+    <!-- Replacing Misc Icons -->
+    <replace sel="/icons/icon[@name='ship_squadleader_01']">
+        <icon name="ship_squadleader_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_squadleader_01.tga" height="130" width="130"></icon>
+    </replace>
+
+    <!-- Adding Invidual Icons for Khak & Xen Ships -->
+    <add sel="/icons">
+        <!-- Adding Xen Icons -->
+        <icon name="ship_xen_s_fight_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xen_s_fight_01.tga" height="160" width="160"></icon>
+        <icon name="ship_xen_m_fight_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xen_m_fight_01.tga" height="180" width="180"></icon>
+        <icon name="ship_xen_xl_carrier_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xen_xl_carrier_01.tga" height="200" width="200"></icon>
+        <icon name="ship_xen_xl_destroyer_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_xen_xl_destroyer_01.tga" height="190" width="190"></icon>
+        <!-- Adding Khak Icons -->
+        <icon name="ship_kha_s_fight_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_kha_s_fight_01.tga" height="160" width="160"></icon>
+        <icon name="ship_kha_m_fight_01" texture="extensions\vanilla-icons-beta\assets\fx\gui\textures\shipicon\ship_kha_m_fight_01.tga" height="180" width="180"></icon>
+    </add>
+</diff>
