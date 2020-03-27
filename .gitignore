@@ -17,5 +17,8 @@
 #VScode Workspaces
 *.code-workspace
 
+#Image Templates
+*.PSD
+
 #Misc/Other Annoyances
 desktop.ini
