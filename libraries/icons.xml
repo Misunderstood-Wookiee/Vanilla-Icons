@@ -103,6 +103,10 @@
         <!-- Adding Khak Icons -->
         <icon name="ship_kha_s_fight_01" texture="extensions\vanilla-icons-stable\assets\fx\gui\textures\shipicon\ship_kha_s_fight_01.tga" height="160" width="160"></icon>
         <icon name="ship_kha_m_fight_01" texture="extensions\vanilla-icons-stable\assets\fx\gui\textures\shipicon\ship_kha_m_fight_01.tga" height="180" width="180"></icon>
+
+        <!-- Adding Invidual Icons for various generic roles -->
+         <!-- Adding Generic Ship_S_Scout -->
+         <icon name="ship_s_fight_heavy_01" texture="extensions\vanilla-icons-stable\assets\fx\gui\textures\shipicon\ship_s_fight_heavy_01.tga" height="162" width="162"></icon>
         <!-- Adding Generic Ship_S_Scout -->
         <icon name="ship_s_fight_scout_01" texture="extensions\vanilla-icons-stable\assets\fx\gui\textures\shipicon\ship_s_fight_scout_01.tga" height="160" width="160"></icon>
         <!-- Adding Generic Ship_M_Frigate -->
