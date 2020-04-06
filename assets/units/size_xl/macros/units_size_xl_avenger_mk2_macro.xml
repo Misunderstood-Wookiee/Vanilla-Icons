@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+  <replace sel="/macros/macro[@name='units_size_xl_avenger_mk2_macro']/properties/identification">
+    <identification name="{87103,55520}" basename="{87100,55520}" description="{87101,55520}" variation="{87102,1201}" shortvariation="{87100,55520}" icon="ship_xl_battleship_01" />
+  </replace>
+</diff>
