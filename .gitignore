@@ -11,14 +11,11 @@
 
 #Workshop Build Files
 *.png
-*.cat
-*.dat
+ext_*.cat
+ext_*.dat
 
 #VScode Workspaces
 *.code-workspace
-
-#Image Templates
-*.PSD
 
 #Misc/Other Annoyances
 desktop.ini
