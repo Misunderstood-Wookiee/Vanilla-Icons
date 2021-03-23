@@ -1,0 +1,3 @@
+<macro name="units_size_m_xenon_fighter_01_macro" class="ship_m">
+  <identification name="{78238230,285}" description="{78238230,286}" unique="0" icon="ship_m_fight_01" />
+  <ship type="heavyfighter" />

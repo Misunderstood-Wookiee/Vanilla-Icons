@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<replace sel="/macros/macro[@name='ship_xen_xl_destroyer_01_a_macro']/properties/identification">
-		<identification name="{20101,70501}" description="{20101,70511}" variation="{20221,4001}" icon="ship_xen_xl_destroyer_01" />
-	</replace>
+	<replace sel="//macros/macro/properties/identification/@icon">ship_xen_xl_destroyer_01</replace>
 </diff>

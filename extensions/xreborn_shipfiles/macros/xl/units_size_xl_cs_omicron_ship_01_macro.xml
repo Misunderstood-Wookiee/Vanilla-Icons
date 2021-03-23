@@ -1,0 +1,122 @@
+<macros>
+  <macro name="units_size_xl_cs_omicron_ship_01_macro" class="ship_xl">
+    <component ref="units_size_xl_cs_omicron_ship_01" />
+    <properties>
+      <identification name="{78238230,3}" description="{78238230,4}" unique="0" icon="ship_xl_fight_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk2" default="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <purpose primary="fight" />
+      <secrecy level="1" />
+      <explosiondamage value="11231" />
+      <storage missile="43" unit="107" />
+      <hull max="124110" />
+      <people capacity="213" />
+      <physics mass="891.63">
+        <inertia pitch="603.604" yaw="603.604" roll="482.883" />
+        <drag forward="258.326" reverse="1033.304" horizontal="467.421" vertical="467.421" pitch="878.326" yaw="878.326" roll="878.326" />
+      </physics>
+      <thruster tags="extralarge" />
+      <ship type="battleship" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_antenna_b">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_antenna_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_antenna_b1">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_antenna_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_antenna_c">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_antenna_c" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_antenna_c1">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_antenna_c" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_cargo_b">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_cargo_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_cargo_b1">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_cargo_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_cargo_b2">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_cargo_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_cargo_d">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_cargo_d" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_center_b">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_center_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_engine_a">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_engine_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_engine_a1">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_engine_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_cs_omicron_side_b">
+        <macro>
+          <component ref="units_size_xl_cs_omicron_side_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_xl_cs_omicron_ship_01_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_shipstorage_s01">
+        <macro ref="units_size_xl_cs_omicron_ship_01_shipstorage_s_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_m01">
+        <macro ref="units_size_xl_cs_omicron_ship_01_shipstorage_m_macro" connection="object" />
+      </connection>
+      <connection ref="con_dock_01">
+        <macro ref="dockarea_arg_m_ship_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_dock_03">
+        <macro ref="dockarea_arg_m_ship_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_dock_02">
+        <macro ref="dockarea_arg_s_ship_02_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_dock_04">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_dock_05">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

@@ -1,0 +1,69 @@
+<macros>
+  <macro name="units_size_xl_capital_destroyer_1_macro" class="ship_xl">
+    <component ref="units_size_xl_capital_destroyer_1" />
+    <properties>
+      <identification name="{78238230,34}" description="{78238230,35}" icon="ship_xl_fight_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk2" default="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <purpose primary="fight" />
+      <secrecy level="1" />
+      <explosiondamage value="11427" />
+      <storage missile="34" unit="114" />
+      <hull max="123641" />
+      <people capacity="215" />
+      <physics mass="891.63">
+        <inertia pitch="603.604" yaw="603.604" roll="482.883" />
+        <drag forward="258.326" reverse="1033.304" horizontal="467.421" vertical="467.421" pitch="878.326" yaw="878.326" roll="878.326" />
+      </physics>
+      <thruster tags="extralarge" />
+      <ship type="battleship" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_doors_f_01">
+        <macro>
+          <component ref="unit_kit_xl_ar_doors_f_01" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_pod_l_01">
+        <macro>
+          <component ref="unit_kit_xl_ar_pod_l_01" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_pod_r_01">
+        <macro>
+          <component ref="unit_kit_xl_ar_pod_r_01" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_xl_capital_destroyer_1_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_shipstorage_s01">
+        <macro ref="units_size_xl_capital_destroyer_1_shipstorage_s_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_m01">
+        <macro ref="units_size_xl_capital_destroyer_1_shipstorage_m_macro" connection="object" />
+      </connection>
+      <connection ref="shot_dock_1">
+        <macro ref="dockarea_arg_s_ship_03_macro" connection="Connection01" />
+      </connection>
+      <connection ref="shot_dock_3">
+        <macro ref="dockarea_arg_s_ship_03_macro" connection="Connection01" />
+      </connection>
+      <connection ref="shot_dock_2">
+        <macro ref="dockarea_arg_xl_carrier_01_macro" connection="Connection01" />
+      </connection>
+          <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection></connections>  </macro>
+</macros>

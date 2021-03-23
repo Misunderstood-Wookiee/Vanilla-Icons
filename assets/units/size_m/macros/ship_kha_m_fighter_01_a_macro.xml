@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<replace sel="/macros/macro[@name='ship_kha_m_fighter_01_a_macro']/properties/identification">
-		<identification name="{20101,90401}" makerrace="khaak" description="{20101,90411}" icon="ship_kha_m_fight_01" />
-	</replace>
+	<replace sel="//macros/macro/properties/identification/@icon">ship_kha_m_fight_01</replace>
 </diff>

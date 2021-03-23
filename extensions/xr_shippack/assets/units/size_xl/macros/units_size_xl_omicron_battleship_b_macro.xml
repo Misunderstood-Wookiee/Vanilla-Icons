@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <replace sel="/macros/macro[@name='units_size_xl_omicron_battleship_b_macro']/properties/identification">
-    <identification name="{87103,55525}" basename="{87100,55525}" description="{87101,55525}" variation="{87102,1601}" shortvariation="{87100,55525}" icon="ship_xl_battleship_01" />
-  </replace>
+  <replace sel="//macros/macro/properties/identification/@icon">ship_xl_battleship</replace>
 </diff>

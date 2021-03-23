@@ -1,0 +1,3 @@
+<macro name="units_size_s_ship_05_macro" class="ship_s">
+  <identification name="{78238230,5}" description="{78238230,6}" icon="ship_s_fight_01" />
+  <ship type="heavyfighter" />

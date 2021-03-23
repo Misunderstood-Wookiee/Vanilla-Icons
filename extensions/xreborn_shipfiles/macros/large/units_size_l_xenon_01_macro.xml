@@ -1,0 +1,3 @@
+<macros>
+  <macro name="units_size_l_xenon_01_macro" class="ship_l">
+  <identification name="{78238230,116}" description="{78238230,117}" unique="0" icon="ship_l_fight_01" />

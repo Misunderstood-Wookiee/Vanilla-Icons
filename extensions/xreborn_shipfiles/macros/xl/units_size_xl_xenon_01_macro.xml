@@ -1,0 +1,63 @@
+<macros>
+  <macro name="units_size_xl_xenon_01_macro" class="ship_xl">
+    <component ref="units_size_xl_xenon_01" />
+    <properties>
+      <identification name="{78238230,134}" description="{78238230,135}" unique="0" icon="ship_xl_fight_01" />
+      <purpose primary="fight" />
+      <ship type="battleship" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk2" default="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <secrecy level="1" />
+      <explosiondamage value="14251" />
+      <storage missile="330" unit="20" />
+      <hull max="211632" />
+      <people capacity="111" />
+      <physics mass="549.202">
+        <inertia pitch="617.044" yaw="617.044" roll="493.635" />
+        <drag forward="189.84" reverse="759.362" horizontal="259.503" vertical="259.503" pitch="809.84" yaw="809.84" roll="809.84" />
+      </physics>
+      <thruster tags="extralarge" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="connection_engine01">
+        <macro>
+          <component ref="props_enginesystems_xenon_engine_xl_2" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="connection_engine02">
+        <macro>
+          <component ref="props_enginesystems_xenon_engine_xl_2" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_xl_xenon_01_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_shipstorage_s01">
+        <macro ref="units_size_xl_xenon_01_shipstorage_s_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_m01">
+        <macro ref="units_size_xl_xenon_01_shipstorage_m_macro" connection="object" />
+      </connection>
+      <!-- <connection ref="con_dock_01">
+        <macro ref="dockarea_gen_m_inv_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_dock_02">
+        <macro ref="dockarea_gen_s_inv_01_macro" connection="Connection01" />
+      </connection> -->
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

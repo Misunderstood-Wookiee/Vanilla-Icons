@@ -1,0 +1,79 @@
+<macros>
+  <macro name="units_size_l_kit_hybrid_02_macro" class="ship_l">
+    <component ref="units_size_l_kit_hybrid_02" />
+    <properties>
+      <identification name="{78238230,287}" basename="{78238230,289}" description="{78238230,288}" unique="0" variation="{78238230,290}" icon="ship_l_trade_01" />
+      <purpose primary="trade" />
+      <secrecy level="1" />
+      <ship type="freighter" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <explosiondamage value="11173" />
+      <storage missile="180" unit="10" />
+      <hull max="121359" />
+      <people capacity="40" />
+      <physics mass="235.22">
+        <inertia pitch="103.378" yaw="103.378" roll="82.702" />
+        <drag forward="108.805" reverse="435.22" horizontal="87.605" vertical="87.605" pitch="114.044" yaw="114.044" roll="114.044" />
+      </physics>
+      <thruster tags="large" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="bridge_arg_l_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="ConnectionFor_units_size_l_carrier_kit_extender1_b">
+        <macro>
+          <component ref="units_size_l_carrier_kit_extender1_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_l_carrier_kit_extender2_d">
+        <macro>
+          <component ref="units_size_l_carrier_kit_extender2_d" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_l_carrier_kit_extender2_f">
+        <macro>
+          <component ref="units_size_l_carrier_kit_extender2_f" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_l_carrier_kit_front_b">
+        <macro>
+          <component ref="units_size_l_carrier_kit_front_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_l_carrier_kit_main_b">
+        <macro>
+          <component ref="units_size_l_carrier_kit_main_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_l_kit_hybrid_02_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_shipstorage_s01">
+        <macro ref="units_size_l_kit_hybrid_02_shipstorage_s_macro" connection="object" />
+      </connection>
+      <connection ref="con_dock_01">
+        <macro ref="dockarea_arg_m_ship_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_dock_02">
+        <macro ref="dockarea_arg_s_ship_04_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_m_01">
+        <macro ref="shipstorage_placeholder_m_01_macro" connection="object" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

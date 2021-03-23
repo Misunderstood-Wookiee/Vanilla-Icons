@@ -1,0 +1,3 @@
+<macro name="units_size_s_torpedo_bomber_macro" class="ship_s">
+  <identification name="{78238230,70}" description="{78238230,71}" icon="ship_m_fight_01" />
+  <ship type="gunboat" />
