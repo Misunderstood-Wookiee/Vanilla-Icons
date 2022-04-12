@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <replace sel="//macros/macro/properties/identification/@icon">ship_xl_battleship</replace>
+  <replace sel="//macros/macro/properties/identification/@icon">ship_xl_battleship_01</replace>
 </diff>
