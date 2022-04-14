@@ -117,5 +117,11 @@
         <icon name="ship_m_fight_frigate_01" texture="extensions\vanilla-icons-stable\assets\fx\gui\textures\shipicon\ship_m_fight_frigate_01.tga" height="185" width="185"></icon>
         <!-- Adding Generic Ship_M_Bomber -->
         <icon name="ship_m_fight_bomber_01" texture="extensions\vanilla-icons-stable\assets\fx\gui\textures\shipicon\ship_m_fight_bomber_01.tga" height="185" width="185"></icon>
+        <!-- Adding Generic Ship_l_cruiser_01 -->
+        <icon name="ship_l_cruiser_01" texture="extensions\vanilla-icons-stable\assets\fx\gui\textures\shipicon\ship_l_cruiser_01.tga" height="197" width="197"></icon>
+        <!-- Adding Generic ship_l_battlecruiser_01 -->
+        <icon name="ship_l_battlecruiser_01" texture="extensions\vanilla-icons-stable\assets\fx\gui\textures\shipicon\ship_l_battlecruiser_01.tga" height="197" width="197"></icon>
+        <!-- Adding Generic ship_l_battleship -->
+        <icon name="ship_l_battleship" texture="extensions\vanilla-icons-stable\assets\fx\gui\textures\shipicon\ship_l_battleship.tga" height="197" width="199"></icon>
     </add>
 </diff>
