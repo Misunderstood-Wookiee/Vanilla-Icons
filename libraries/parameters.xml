@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <!-- Holo-Map Icon Size Diff Patch 1080P-1440p -->
+
+  <!--  Player Size -->
+  <replace sel="/parameters/holomap/general/icons/player/@iconscale">1.25</replace>
+  <!--  Ship Class  -->
+  <replace sel="/parameters/holomap/general/icons/ship_xs/@iconscale">1.35</replace>
+  <replace sel="/parameters/holomap/general/icons/ship_s/@iconscale">1.45</replace>
+  <replace sel="/parameters/holomap/general/icons/ship_m/@iconscale">1.55</replace>
+  <replace sel="/parameters/holomap/general/icons/ship_l/@iconscale">1.65</replace>
+  <replace sel="/parameters/holomap/general/icons/ship_xl/@iconscale">1.8</replace>
+  <!--  Jump-Gate and Highway -->
+  <replace sel="/parameters/holomap/general/icons/jumpgate/@iconscale">1.7</replace>
+  <replace sel="/parameters/holomap/general/icons/highwayentry/@iconscale">1.7</replace>
+  <!--  Deployables -->
+  <replace sel="/parameters/holomap/general/icons/collectable/@iconscale">1.10</replace>
+  <replace sel="/parameters/holomap/general/icons/lockbox/@iconscale">1.10</replace>
+  <replace sel="/parameters/holomap/general/icons/satellite/@iconscale">1.10</replace>
+  <replace sel="/parameters/holomap/general/icons/navbeacon/@iconscale">1.10</replace>
+  <replace sel="/parameters/holomap/general/icons/resourceprobe/@iconscale">1.10</replace>
+  <replace sel="/parameters/holomap/general/icons/mine/@iconscale">1.10</replace>
+  <replace sel="/parameters/holomap/general/icons/asteroid/@iconscale">1.10</replace>
+</diff>
